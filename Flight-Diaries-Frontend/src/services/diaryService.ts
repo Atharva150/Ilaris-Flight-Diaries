@@ -1,7 +1,7 @@
 import axios, { type AxiosError } from "axios";
 import type { DiaryEntry, NewDiaryEntry } from "../types";
 
-const baseUrl = "http://localhost:3000/api/diaries";
+const baseUrl = "https://ilaris-flight-diaries.onrender.com/api/diaries";
 
 const getAll = async (): Promise<DiaryEntry[]> => {
   const response = await axios.get<DiaryEntry[]>(baseUrl);

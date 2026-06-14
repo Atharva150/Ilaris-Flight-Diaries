@@ -11,6 +11,7 @@
     "start": "node --experimental-transform-types index.ts",
     "lint": "eslint .",
     "tsc": "tsc",
+    "build":"tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
